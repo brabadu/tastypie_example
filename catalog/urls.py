@@ -11,5 +11,5 @@ urlpatterns = patterns('',
     # url(r'^catalog/', include('catalog.foo.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^api/', include(cabinet_resource.urls))
+    url(r'^api/', include(cabinet_resource.urls)),
 )
