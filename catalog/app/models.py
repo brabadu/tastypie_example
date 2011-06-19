@@ -14,7 +14,7 @@ class Cabinet(models.Model):
 
 
 class Folder(models.Model):
-    cabinet = models.ForeignKey('Cabinet')
+    cabinet = models.ForeignKey('Cabinet', related_name='folders')
     name = models.CharField(max_length=20)
     secrecy = models.IntegerField()
 
