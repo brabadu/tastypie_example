@@ -23,7 +23,7 @@ class Folder(models.Model):
 
 
 class File(models.Model):
-    folder = models.ForeignKey('Folder')
+    folder = models.ForeignKey('Folder', related_name='files')
     type = models.ForeignKey('FileType', related_name='files')
     archive_num = models.CharField(max_length=20)
     content = models.TextField()
