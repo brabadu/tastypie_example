@@ -1,5 +1,23 @@
 [
     {
+        "pk": 13, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "apiaccess", 
+            "name": "api access", 
+            "app_label": "tastypie"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "apikey", 
+            "name": "api key", 
+            "app_label": "tastypie"
+        }
+    }, 
+    {
         "pk": 9, 
         "model": "contenttypes.contenttype", 
         "fields": {
@@ -108,11 +126,398 @@
         }
     }, 
     {
+        "pk": "df76820051a0a92436291790c3695a0d", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2011-07-01 15:40:39", 
+            "session_data": "NGZjODQxODEwODI3NzEzOTg3MjFhMmJhZGM0MDJjYzE0MTVjZWM4MjqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "sites.site", 
         "fields": {
             "domain": "example.com", 
             "name": "example.com"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:55:44", 
+            "object_repr": "Bill $1000", 
+            "object_id": "5", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-06-17 15:55:31", 
+            "object_repr": "Document \"Lorem ipsum dolor sit amet, c", 
+            "object_id": "4", 
+            "change_message": "No fields changed.", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:55:30", 
+            "object_repr": "Document \"Lorem ipsum dolor sit amet, c", 
+            "object_id": "4", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:55:14", 
+            "object_repr": "File type Document", 
+            "object_id": "5", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:49:24", 
+            "object_repr": "File object", 
+            "object_id": "3", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:49:07", 
+            "object_repr": "File object", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:48:48", 
+            "object_repr": "File object", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:46:47", 
+            "object_repr": "FileType object", 
+            "object_id": "4", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:46:25", 
+            "object_repr": "FileType object", 
+            "object_id": "3", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:46:21", 
+            "object_repr": "FileType object", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:46:17", 
+            "object_repr": "FileType object", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:44:48", 
+            "object_repr": "Folder object", 
+            "object_id": "4", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:44:20", 
+            "object_repr": "Folder object", 
+            "object_id": "3", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:44:06", 
+            "object_repr": "Folder object", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:43:54", 
+            "object_repr": "Folder object", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:42:00", 
+            "object_repr": "Cabinet object", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:41:45", 
+            "object_repr": "other_user", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 3
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2011-06-17 15:40:57", 
+            "object_repr": "Cabinet object", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "app.cabinet", 
+        "fields": {
+            "added": "2011-06-17", 
+            "floor": 2, 
+            "color": "black", 
+            "height": 2, 
+            "width": 10, 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "app.cabinet", 
+        "fields": {
+            "added": "2011-06-17", 
+            "floor": 10, 
+            "color": "white", 
+            "height": 1, 
+            "width": 4, 
+            "user": 2
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "app.folder", 
+        "fields": {
+            "secrecy": 10, 
+            "name": "XFiles", 
+            "cabinet": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "app.folder", 
+        "fields": {
+            "secrecy": 0, 
+            "name": "Fun pics", 
+            "cabinet": 2
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "app.folder", 
+        "fields": {
+            "secrecy": 3, 
+            "name": "Old folder", 
+            "cabinet": 2
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "app.folder", 
+        "fields": {
+            "secrecy": 6, 
+            "name": "Foldy folder", 
+            "cabinet": 1
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "app.file", 
+        "fields": {
+            "archive_num": "221122", 
+            "content": "\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n", 
+            "folder": 1, 
+            "type": 4
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "app.file", 
+        "fields": {
+            "archive_num": "87878", 
+            "content": "Funny picture", 
+            "folder": 2, 
+            "type": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "app.file", 
+        "fields": {
+            "archive_num": "23423424", 
+            "content": "Photo of some big room", 
+            "folder": 3, 
+            "type": 3
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "app.file", 
+        "fields": {
+            "archive_num": "1111", 
+            "content": "\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n\r\n\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"\r\n", 
+            "folder": 4, 
+            "type": 5
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "app.file", 
+        "fields": {
+            "archive_num": "333", 
+            "content": "$1000", 
+            "folder": 4, 
+            "type": 2
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "app.filetype", 
+        "fields": {
+            "type": "Picture"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "app.filetype", 
+        "fields": {
+            "type": "Bill"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "app.filetype", 
+        "fields": {
+            "type": "Photo"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "app.filetype", 
+        "fields": {
+            "type": "Evidence"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "app.filetype", 
+        "fields": {
+            "type": "Document"
         }
     }, 
     {
@@ -440,6 +845,60 @@
         }
     }, 
     {
+        "pk": 37, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_apiaccess", 
+            "name": "Can add api access", 
+            "content_type": 13
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_apiaccess", 
+            "name": "Can change api access", 
+            "content_type": 13
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_apiaccess", 
+            "name": "Can delete api access", 
+            "content_type": 13
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_apikey", 
+            "name": "Can add api key", 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_apikey", 
+            "name": "Can change api key", 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_apikey", 
+            "name": "Can delete api key", 
+            "content_type": 14
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "auth.user", 
         "fields": {
@@ -455,6 +914,24 @@
             "password": "sha1$c57e3$1d5c978d71b6ff77c358e2672445b001e3857085", 
             "email": "admin@example.com", 
             "date_joined": "2011-06-17 15:37:45"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "other_user", 
+            "first_name": "", 
+            "last_name": "", 
+            "is_active": true, 
+            "is_superuser": false, 
+            "is_staff": false, 
+            "last_login": "2011-06-17 15:41:45", 
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "sha1$3be0f$bec0c9b2153e5f506fbe1836a612518a9b8762e2", 
+            "email": "", 
+            "date_joined": "2011-06-17 15:41:45"
         }
     }
 ]
