@@ -38,3 +38,10 @@ class CabinetResource(ModelResource):
         resource_name = 'cabinet/list'
         excludes = ['id']
         include_resource_uri = False
+
+    def alter_list_data_to_serialize(self, request, data_dict):
+        if isinstance(data_dict, dict):
+            if 'meta' in data_dict:
+                # Get rid of the "meta".
+                del(data_dict['meta'])
+        return data_dict
