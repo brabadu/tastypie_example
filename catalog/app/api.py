@@ -1,3 +1,4 @@
+import copy
 from tastypie.resources import ModelResource
 from tastypie import fields
 
@@ -44,4 +45,7 @@ class CabinetResource(ModelResource):
             if 'meta' in data_dict:
                 # Get rid of the "meta".
                 del(data_dict['meta'])
+                # Rename the objects.
+                data_dict['cabinets'] = copy.copy(data_dict['objects'])
+                del(data_dict['objects'])
         return data_dict
