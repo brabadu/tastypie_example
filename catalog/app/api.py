@@ -1,10 +1,20 @@
 from tastypie.resources import ModelResource
 from tastypie import fields
 
-from app.models import Cabinet, Folder, File
+from app.models import Cabinet, Folder, File, FileType
+
+
+class FileTypeResource(ModelResource):
+    class Meta:
+        queryset = FileType.objects.all()
+
+    def dehydrate(self, bundle):
+        return bundle.data['type']
 
 
 class FileResource(ModelResource):
+    type = fields.ToOneField('app.api.FileTypeResource', 'type', full=True)
+
     class Meta:
         queryset = File.objects.all()
         excludes = ['id']
