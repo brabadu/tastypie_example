@@ -10,5 +10,6 @@ This repo was created for a [blogpost](http://blog.brabadu.com/2011/06/easy-rest
 
 You can go to admin and do something with data.
 
- Login: admin
- Password: admin
+Login: admin
+
+Password: admin
