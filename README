@@ -1,7 +1,7 @@
 django-tastypie example
 =======================
 
-This repo was created for a blogpost explaining how to use django-tastypie (https://github.com/toastdriven/django-tastypie)
+This repo was created for a [blogpost](http://blog.brabadu.com/2011/06/easy-rest-api-with-django-tastypie.html) explaining how to use [django-tastypie](https://github.com/toastdriven/django-tastypie)
 
 1. clone repo
 2. ./manage.py syncdb
